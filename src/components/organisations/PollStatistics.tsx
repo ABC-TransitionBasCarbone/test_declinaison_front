@@ -2,7 +2,7 @@
 
 import Trans from '@/components/translation/trans/TransClient'
 import type { PublicPollSimulation } from '@/types/organisations'
-import type { FunFacts } from '@incubateur-ademe/nosgestesclimat'
+import type { FunFacts } from '@abc-transitionbascarbone/test_declinaison_modele'
 import type { ReactNode } from 'react'
 import DetailedStatistics from './orgaStatistics/DetailedStatistics'
 import FunFactsBlock from './orgaStatistics/FunFactsBlock'

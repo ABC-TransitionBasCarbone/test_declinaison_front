@@ -2,7 +2,7 @@ import type {
   DottedName,
   NGCRuleNode,
   NGCRules,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useContext } from 'react'
 import { SimulationContext } from '../../providers/simulationProvider/context'
 import useCurrentSimulation from '../useCurrentSimulation'

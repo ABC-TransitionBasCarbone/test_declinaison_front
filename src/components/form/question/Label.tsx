@@ -15,7 +15,7 @@ import Markdown from '@/design-system/utils/Markdown'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import type { QuestionSize } from '@/types/values'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 

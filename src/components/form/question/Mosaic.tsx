@@ -1,4 +1,4 @@
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import MosaicQuestion from './mosaic/MosaicQuestion'
 
 type Props = {
@@ -21,15 +21,15 @@ export default function Mosaic({
 
       {questionsOfMosaic
         ? questionsOfMosaic.map((questionOfMosaic, index) => (
-            <MosaicQuestion
-              key={questionOfMosaic}
-              parentMosaic={question}
-              question={questionOfMosaic}
-              index={index}
-              firstInputId={firstInputId}
-              {...props}
-            />
-          ))
+          <MosaicQuestion
+            key={questionOfMosaic}
+            parentMosaic={question}
+            question={questionOfMosaic}
+            index={index}
+            firstInputId={firstInputId}
+            {...props}
+          />
+        ))
         : 'Cette mosaique n a pas d enfants.'}
     </fieldset>
   )

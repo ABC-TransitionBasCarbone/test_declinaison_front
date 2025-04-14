@@ -3,7 +3,7 @@ import type {
   NGCRule,
   NGCRuleNode,
   NGCRulesNodes,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/test_declinaison_modele'
 import * as Sentry from '@sentry/nextjs'
 import { utils } from 'publicodes'
 import getSomme from './getSomme'

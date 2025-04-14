@@ -7,7 +7,7 @@ import {
   getTextDarkColor,
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { twMerge } from 'tailwind-merge'
 import Actions from './subcategory/Actions'
 

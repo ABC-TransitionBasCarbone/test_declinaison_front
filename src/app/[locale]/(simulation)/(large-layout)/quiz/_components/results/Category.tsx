@@ -4,7 +4,7 @@ import HorizontalBarChartItem from '@/components/charts/HorizontalBarChartItem'
 import Trans from '@/components/translation/trans/TransClient'
 import { formatCarbonFootprint } from '@/helpers/formatters/formatCarbonFootprint'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { twMerge } from 'tailwind-merge'
 
 type Props = {

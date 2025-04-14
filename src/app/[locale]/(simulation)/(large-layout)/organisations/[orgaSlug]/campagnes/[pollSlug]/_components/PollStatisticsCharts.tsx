@@ -5,7 +5,7 @@ import Trans from '@/components/translation/trans/TransClient'
 import { carboneMetric } from '@/constants/metric'
 import Separator from '@/design-system/layout/Separator'
 import type { PublicPollSimulation } from '@/types/organisations'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import isMobile from 'is-mobile'
 import { useMemo } from 'react'
 import CategoryListItem from './pollStatisticsCharts/CategoryListItem'
@@ -21,7 +21,7 @@ export default function PollStatisticsCharts({
   const maxValueOfAllCategories = useMemo(
     () =>
       simulations?.reduce((acc, obj) => {
-        ;(
+        ; (
           Object.keys(
             obj.computedResults[carboneMetric].categories ?? {}
           ) as DottedName[]

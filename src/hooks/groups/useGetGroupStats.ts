@@ -4,7 +4,7 @@ import type {
   Participant,
   PointsFortsFaiblesType,
 } from '@/types/groups'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useGetGroupAndUserFootprints } from './useGetGroupAndUserFootprints'
 
 type Props = {

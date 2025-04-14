@@ -829,7 +829,7 @@
 
 "@incubateur-ademe/nosgestesclimat@3.6.2":
   version "3.6.2"
-  resolved "https://registry.yarnpkg.com/@incubateur-ademe/nosgestesclimat/-/nosgestesclimat-3.6.2.tgz#f589b7155056efc4bd18a9761006fa581ff127e1"
+  resolved "https://registry.yarnpkg.com/@abc-transitionbascarbone/test_declinaison_modele/-/nosgestesclimat-3.6.2.tgz#f589b7155056efc4bd18a9761006fa581ff127e1"
   integrity sha512-oztuT2uBaw+stcqlpLEGtqgjOv5Ags32G3EB76YbSJctMxBZHl3Mz8S+F9VNUTsENo8BkBPvHifpeVIJNXIOQg==
 
 "@isaacs/cliui@^8.0.2":

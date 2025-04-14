@@ -6,7 +6,7 @@ import { getTextDarkColor } from '@/helpers/getCategoryColorClass'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useLocale } from '@/hooks/useLocale'
 import { useForm, useRule } from '@/publicodes-state'
-import type { DottedName, Metrics } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, Metrics } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { twMerge } from 'tailwind-merge'
 
 export default function CategoryResult({

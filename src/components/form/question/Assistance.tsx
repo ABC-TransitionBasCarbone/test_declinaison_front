@@ -6,7 +6,7 @@ import {
   getBgCategoryColor,
   getBorderCategoryColor,
 } from '@/helpers/getCategoryColorClass'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useEffect, useRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 

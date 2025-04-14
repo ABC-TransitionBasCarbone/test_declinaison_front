@@ -14,7 +14,7 @@ import {
 import { useForm, useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
 import { capitalizeString } from '@/utils/capitalizeString'
-import type { DottedName, NodeValue } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NodeValue } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { twMerge } from 'tailwind-merge'
 
 type Props = {

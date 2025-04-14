@@ -1,6 +1,6 @@
 'use client'
 
-import type { Personas } from '@incubateur-ademe/nosgestesclimat'
+import type { Personas } from '@abc-transitionbascarbone/test_declinaison_modele'
 import Persona from './Persona'
 
 type Props = {

@@ -28,7 +28,7 @@ import {
 } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
 import { encodeRuleName } from '@/utils/publicodes/encodeRuleName'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useCallback } from 'react'
 import { twMerge } from 'tailwind-merge'
 import ActionValue from './ActionValue'
@@ -209,22 +209,22 @@ export default function ActionCard({
           {!Object.keys(actionChoices || {}).some((key) => {
             return key === dottedName && actionChoices?.[key]
           }) && (
-            <button
-              title={t("Rejeter l'action")}
-              onClick={(e) => {
-                if (isDisabled) return
+              <button
+                title={t("Rejeter l'action")}
+                onClick={(e) => {
+                  if (isDisabled) return
 
-                rejectAction(dottedName)
+                  rejectAction(dottedName)
 
-                if (!isSelected) {
-                  trackEvent(actionsClickNo(dottedName))
-                }
-                e.stopPropagation()
-                e.preventDefault()
-              }}>
-              <CloseIcon width="40" height="40" className="fill-gray-600" />
-            </button>
-          )}
+                  if (!isSelected) {
+                    trackEvent(actionsClickNo(dottedName))
+                  }
+                  e.stopPropagation()
+                  e.preventDefault()
+                }}>
+                <CloseIcon width="40" height="40" className="fill-gray-600" />
+              </button>
+            )}
         </div>
       </div>
     </div>

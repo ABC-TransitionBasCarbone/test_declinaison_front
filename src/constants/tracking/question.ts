@@ -1,7 +1,7 @@
 // Return tracking data in format
 // [ 'trackEvent', 'Category', 'Action', 'Name', 'Value' ]
 
-import type { DottedName, NodeValue } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NodeValue } from '@abc-transitionbascarbone/test_declinaison_modele'
 
 type Props = {
   question: DottedName

@@ -1,6 +1,6 @@
 'use client'
 
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { createContext } from 'react'
 
 type FormContextType = {

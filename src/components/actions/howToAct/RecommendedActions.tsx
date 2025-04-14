@@ -1,7 +1,7 @@
 'use client'
 
 import { useActions, useEngine } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useMemo } from 'react'
 import RecommendedAction from './recommendedActions/RecommendedAction'
 

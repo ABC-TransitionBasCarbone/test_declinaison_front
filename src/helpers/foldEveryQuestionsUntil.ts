@@ -1,5 +1,5 @@
 import type { UpdateCurrentSimulationProps } from '@/publicodes-state/types'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 
 type Props = {
   question: DottedName

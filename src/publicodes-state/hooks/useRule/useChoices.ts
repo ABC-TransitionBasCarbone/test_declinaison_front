@@ -1,6 +1,6 @@
 'use client'
 
-import type { DottedName, NGCRuleNode } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useMemo } from 'react'
 import useEngine from '../useEngine'
 type Props = {

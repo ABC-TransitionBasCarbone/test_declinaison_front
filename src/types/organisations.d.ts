@@ -2,7 +2,7 @@ import type { OrganisationTypeEnum } from '@/constants/organisations/organisatio
 import type { PollDefaultAdditionalQuestion } from '@/constants/organisations/pollDefaultAdditionalQuestion'
 import type { SimulationAdditionalQuestionAnswerType } from '@/constants/organisations/simulationAdditionalQuestionAnswerType'
 import type { ComputedResults, Situation } from '@/publicodes-state/types'
-import type { DottedName, FunFacts } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, FunFacts } from '@abc-transitionbascarbone/test_declinaison_modele'
 
 type CustomAdditionalQuestions = {
   question: string

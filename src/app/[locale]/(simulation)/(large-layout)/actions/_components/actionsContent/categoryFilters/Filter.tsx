@@ -8,7 +8,7 @@ import {
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/analytics/trackEvent'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 type Props = {
@@ -33,20 +33,18 @@ export default function Filter({ dottedName, countByCategory }: Props) {
 
     const metricSearchParam = metric ? `métrique=${metric}&` : ''
 
-    const searchParamsPart = `${searchParamsStart}${metricSearchParam}${
-      isSelected ? '' : `catégorie=${dottedName}`
-    }`
+    const searchParamsPart = `${searchParamsStart}${metricSearchParam}${isSelected ? '' : `catégorie=${dottedName}`
+      }`
 
     return `${siteURL}${searchParamsPart}`
   }
 
   return (
     <li
-      className={`height-[1.8rem] rounded-md ${
-        !categorySelected || categorySelected === dottedName
+      className={`height-[1.8rem] rounded-md ${!categorySelected || categorySelected === dottedName
           ? getBackgroundLightColor(dottedName)
           : 'bg-gray-200'
-      }`}
+        }`}
       style={{
         backgroundColor: getBackgroundColor(),
       }}>

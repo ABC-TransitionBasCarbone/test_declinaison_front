@@ -5,7 +5,7 @@ import { DEFAULT_FOCUS_ELEMENT_ID } from '@/constants/accessibility'
 import Emoji from '@/design-system/utils/Emoji'
 import { onKeyDownHelper } from '@/helpers/accessibility/onKeyDownHelper'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { motion } from 'framer-motion'
 import { twMerge } from 'tailwind-merge'
 

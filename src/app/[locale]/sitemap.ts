@@ -1,5 +1,5 @@
 import { getPosts } from '@/helpers/markdown/getPosts'
-import rules from '@incubateur-ademe/nosgestesclimat/public/co2-model.FR-lang.fr-opti.json'
+import rules from '@abc-transitionbascarbone/test_declinaison_modele/public/co2-model.FR-lang.fr-opti.json'
 import type { MetadataRoute } from 'next'
 import { utils } from 'publicodes'
 

@@ -1,7 +1,7 @@
 import type {
   SupportedRegion,
   SupportedRegions,
-} from '@incubateur-ademe/nosgestesclimat'
+} from '@abc-transitionbascarbone/test_declinaison_modele'
 
 export const sortSupportedRegions = ({
   supportedRegions,

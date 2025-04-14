@@ -4,7 +4,7 @@ import {
   getFillColor,
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 
 type Props = {
   category: DottedName

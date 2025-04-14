@@ -1,4 +1,4 @@
-import type { DottedName, NGCRuleNode } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { captureException } from '@sentry/nextjs'
 import type { Engine } from '../types'
 

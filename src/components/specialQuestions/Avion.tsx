@@ -3,7 +3,7 @@
 import Question from '@/components/form/Question'
 import Trans from '@/components/translation/trans/TransClient'
 import Button from '@/design-system/inputs/Button'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { useState } from 'react'
 import PencilIcon from '../icons/PencilIcon'
 import ThreeYearsInput from './avion/ThreeYearsInput'

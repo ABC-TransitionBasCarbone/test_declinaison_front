@@ -7,7 +7,7 @@ import Emoji from '@/design-system/utils/Emoji'
 import { formatCarbonFootprint } from '@/helpers/formatters/formatCarbonFootprint'
 import { useRule } from '@/publicodes-state'
 import type { PublicPollSimulation } from '@/types/organisations'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import { t } from 'i18next'
 import RepartitionChart from './RepartitionChart'
 

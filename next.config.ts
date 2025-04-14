@@ -18,6 +18,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: remoteImagesPatterns,
   },
+  // eslint-disable-next-line @typescript-eslint/require-await
   async redirects() {
     return redirects
   },
@@ -64,7 +65,7 @@ const nextConfig: NextConfig = {
     '/sitemap.xml': ['public/images/blog', 'public/NGC_Kit.diffusion.zip'],
   },
   experimental: {
-    optimizePackageImports: ['@incubateur-ademe/nosgestesclimat'],
+    optimizePackageImports: ['@abc-transitionbascarbone/test_declinaison_modele'],
     webpackBuildWorker: true,
     turbo: {
       rules: {

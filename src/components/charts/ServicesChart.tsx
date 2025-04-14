@@ -1,5 +1,5 @@
 import { useEngine } from '@/publicodes-state'
-import type { DottedName } from '@incubateur-ademe/nosgestesclimat'
+import type { DottedName } from '@abc-transitionbascarbone/test_declinaison_modele'
 import RavijenChart from './RavijenChart'
 
 export default function ServicesChart() {
